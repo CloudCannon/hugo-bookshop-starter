@@ -1,0 +1,11 @@
+<div class="c-title">
+    {{ range .tags }}
+        {{ partial "bookshop" (dict "partial" "tag" "text" .text) }}
+    {{ end }}
+    <h1 class="c-title__title">
+        {{ .title }}
+    </h1>
+    {{ if .content_html }}
+        {{ partial "bookshop" (dict "component" "content" "content_html" .content_html) }}
+    {{ end }}
+</div>

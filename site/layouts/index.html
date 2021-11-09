@@ -1,0 +1,6 @@
+{{ define "main" }}
+
+<!-- Render a `content` component directly, passing in extra data -->
+{{ partial "bookshop" (dict "component" "content" "content_html" .Params.note_html "type" "note") }}
+
+{{ end }}

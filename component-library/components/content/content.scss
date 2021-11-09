@@ -1,0 +1,17 @@
+.c-content {
+    box-sizing: border-box;
+    padding: 15px 0 15px 15px;
+    border-left: solid 8px var(--foreground);
+
+    &--note {
+        background-color: var(--translucent);
+    }
+
+    & >:first-child {
+        margin-top: 0;
+    }
+    
+    & >:last-child {
+        margin-bottom: 0;
+    }
+}

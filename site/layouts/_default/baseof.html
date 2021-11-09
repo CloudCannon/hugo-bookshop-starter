@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hugo Bookshop Starter</title>
+
+    <!-- The bookshop_scss partial returns a slice of all SCSS resources from your Bookshop -->
+    {{ $bookshop_scss_files := partial "bookshop_scss" . }}
+    <!-- resources.Concat converts all of the above SCSS resources into one logical CSS file -->
+    {{ $scss := $bookshop_scss_files | resources.Concat "css/bookshop.css" | resources.ToCSS | resources.Minify |
+    resources.Fingerprint }}
+    <link rel="stylesheet" href="{{ $scss.Permalink }}">
+</head>
+
+<body>
+    <main>
+        <!-- Loop through any stuctures in the front-matter and render them -->
+        {{ with .Params.content_blocks }}
+        {{ partial "bookshop" . }}
+        {{ end }}
+
+        <!-- Render any additional page content below the page's content blocks -->
+        {{ block "main" . }}{{ end }}
+    </main>
+</body>
+
+</html>
