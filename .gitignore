@@ -2,6 +2,7 @@ _site
 .sass-cache
 vendor
 _vendor
+public
 node_modules
 bookshop-live.js
 bookshop-hosted.js

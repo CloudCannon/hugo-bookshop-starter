@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "🌥️  Running Bookshop generator…"
+npm_config_yes=true npx "@bookshop/generate"
