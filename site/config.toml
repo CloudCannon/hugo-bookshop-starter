@@ -1,6 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Hugo Bookshop Starter"
+_enabled_editors = ["visual", "content"]
 
 [module]
 replacements = "local/component-library -> ../../component-library"
