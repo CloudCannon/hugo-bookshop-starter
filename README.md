@@ -5,9 +5,9 @@ A starter template for a new Hugo site using [Bookshop](https://github.com/Cloud
 Implemented:
 - [x] Component syntax
 - [x] SCSS pipeline
+- [x] CloudCannon structures generation
 
 Upcoming:
-- [ ] CloudCannon structures generation
 - [ ] Local component browser
 - [ ] Live editing
 
