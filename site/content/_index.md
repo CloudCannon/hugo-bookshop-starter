@@ -1,4 +1,4 @@
----
+--- 
 content_blocks:
   # An example of using bookshop via array structures.
   # On CloudCannon, these structures are configured automatically for you.

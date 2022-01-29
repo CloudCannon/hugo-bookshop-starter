@@ -18,10 +18,8 @@
 <body>
     <main>
         <!-- Loop through any stuctures in the front-matter and render them -->
-        {{ with .Params.content_blocks }}
-        {{ partial "bookshop" . }}
-        {{ end }}
-
+        {{ partial "bookshop_bindings" `.Params.content_blocks` }}
+        {{ partial "bookshop_partial" (slice "page" .Params.content_blocks) }}
         <!-- Render any additional page content below the page's content blocks -->
         {{ block "main" . }}{{ end }}
     </main>
