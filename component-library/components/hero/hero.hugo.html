@@ -1,6 +1,6 @@
 <div class="c-title">
     {{ range .tags }}
-        {{ partial "bookshop_partial" (slice "tag" (dict "text" .text)) }}
+        {{ partial "bookshop" (slice "tag" (dict "text" .text)) }}
     {{ end }}
     <h1 class="c-title__title">
         {{ .title }}

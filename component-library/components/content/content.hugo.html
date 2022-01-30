@@ -1,6 +1,6 @@
 <div class="c-content c-content--{{ .type }}">
     {{ if eq .type "note" }}
-        {{ partial "bookshop_partial" (slice "tag" (dict "text" "Note")) }}
+        {{ partial "bookshop" (slice "tag" (dict "text" "Note")) }}
     {{ end }}
     {{ .content_html | safeHTML }}
 </div>
