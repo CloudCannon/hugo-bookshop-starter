@@ -2,19 +2,16 @@
 
 A starter template for a new Hugo site using [Bookshop](https://github.com/CloudCannon/bookshop)
 
-Implemented:
-- [x] Component syntax
-- [x] SCSS pipeline
-- [x] CloudCannon structures generation
-
-Upcoming:
-- [ ] Local component browser
-- [ ] Live editing
-
 To run locally:
 ```bash
-cd site && hugo server -D
+cd bookshop-starter-site && hugo server -D
 ```
+
+To generate the component browser:
+```bash
+npm run bookshop-browser
+```
+This will create browser files in the site's static directory. Running a Hugo build after this will show a live component browser at `/components` 
 
 ## Structure
 The bookshop components live in `component-library`, which is loaded as a Hugo module in `site/config.toml`.
