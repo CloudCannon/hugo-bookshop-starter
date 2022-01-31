@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "🌥️  Cleaning…"
+echo "🌥️  Cleaning the npm bin…"
 rm -rf node_modules
 rm -f package-lock.json
 echo "🌥️  Installing node modules…"
