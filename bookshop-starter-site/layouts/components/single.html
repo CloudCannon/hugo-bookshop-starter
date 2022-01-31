@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+<div data-bookshop-browser></div>
+<script src="/bookshop-hosted.js"></script>
+<script>
+  window.bookshopBrowser = new window.BookshopBrowser(); 
+  window.bookshopBrowser.render();
+</script>
+
+{{ end }}
