@@ -1,10 +1,5 @@
 {{ define "main" }}
 
-<div data-bookshop-browser></div>
-<script src="/bookshop-hosted.js"></script>
-<script>
-  window.bookshopBrowser = new window.BookshopBrowser(); 
-  window.bookshopBrowser.render();
-</script>
+{{ partial "bookshop_component_browser" }}
 
 {{ end }}

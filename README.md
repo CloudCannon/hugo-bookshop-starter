@@ -7,11 +7,14 @@ To run locally:
 cd bookshop-starter-site && hugo server -D
 ```
 
-To generate the component browser:
+To see the component browser locally:
 ```bash
-npm run bookshop-browser
+npm i
+npx @bookshop/browser
 ```
-This will create browser files in the site's static directory. Running a Hugo build after this will show a live component browser at `/components` 
+You can now load `/components` on your site and see the component library.
+
+If building on CloudCannon, this page will also show a hosted version of the component library.
 
 ## Structure
 The bookshop components live in `component-library`, which is loaded as a Hugo module in `site/config.toml`.

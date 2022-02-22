@@ -2,9 +2,6 @@
   "name": "hugo-bookshop-starter",
   "private": true,
   "description": "A starter template for Hugo with Bookshop",
-  "scripts": {
-    "bookshop-browser": "bookshop-browser -b component-library -o bookshop-starter-site/static/bookshop-hosted.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CloudCannon/hugo-bookshop-starter.git"
@@ -16,9 +13,9 @@
   },
   "homepage": "https://github.com/CloudCannon/hugo-bookshop-starter#readme",
   "devDependencies": {
-    "@bookshop/browser": "2.4.2",
-    "@bookshop/generate": "2.4.2",
-    "@bookshop/hugo-engine": "2.4.2",
+    "@bookshop/browser": "2.5.0",
+    "@bookshop/generate": "2.5.0",
+    "@bookshop/hugo-engine": "2.5.0",
     "liquidjs": "9.28.0"
   },
   "dependencies": {
