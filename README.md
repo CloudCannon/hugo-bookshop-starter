@@ -4,7 +4,7 @@ A starter template for a new Hugo site using [Bookshop](https://github.com/Cloud
 
 To run locally:
 ```bash
-cd bookshop-starter-site && hugo server -D
+hugo server -D
 ```
 
 To see the component browser locally:
@@ -17,7 +17,7 @@ You can now load `/components` on your site and see the component library.
 If building on CloudCannon, this page will also show a hosted version of the component library.
 
 ## Structure
-The bookshop components live in `component-library`, which is loaded as a Hugo module in `site/config.toml`.
+The bookshop components live in `component-library`, which is loaded as a Hugo module in `config.toml`.
 
 The site also pulls in the main dependency of `github.com/cloudcannon/bookshop/hugo/v2`.
 

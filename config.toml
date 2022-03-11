@@ -4,7 +4,7 @@ title = "Hugo Bookshop Starter"
 _enabled_editors = ["visual", "content"]
 
 [module]
-replacements = "local/component-library -> ../../component-library"
+replacements = "local/component-library -> ../component-library"
 
 [[module.imports]]
 path = 'local/component-library'
