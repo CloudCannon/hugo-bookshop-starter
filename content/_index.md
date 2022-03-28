@@ -5,8 +5,10 @@ content_blocks:
   # To follow this array being rendered, see layouts/_default/baseof.html
   - _bookshop_name: hero
     title: Bookshop Hugo Starter
-    content_html: >-
-      <p>A skeleton for getting started with your component journey using Bookshop and Hugo.</p>
+    content:
+      content_html: >-
+        <p>A skeleton for getting started with your component journey using Bookshop and Hugo.</p>
+      type: standard
     tags:
       - text: "bookshop"
       - text: "hugo"

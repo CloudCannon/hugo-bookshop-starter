@@ -5,7 +5,7 @@
     <h1 class="c-title__title">
         {{ .title }}
     </h1>
-    {{ if .content_html }}
-        {{ partial "bookshop" (slice "content" (dict "content_html" .content_html)) }}
+    {{ with .content }}
+        {{ partial "bookshop" (slice "content" .) }}
     {{ end }}
 </div>
