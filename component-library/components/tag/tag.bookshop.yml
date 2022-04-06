@@ -2,17 +2,16 @@
 spec:
   structures: []
   label: Tag
-  description: A generic tag component
+  description: A tag subcomponent
   icon: smart_button
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: ""
+  text: "Tag"
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  text: Hello World
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
-_inputs: {}
+_inputs:
