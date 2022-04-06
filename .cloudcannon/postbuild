@@ -1,9 +1,4 @@
 #!/usr/bin/env bash
 
-echo "🌥️  Cleaning the npm bin…"
-rm -rf node_modules
-rm -f package-lock.json
-echo "🌥️  Installing node modules…"
 npm i
-echo "🌥️  Running Bookshop generator…"
 npx "@bookshop/generate"

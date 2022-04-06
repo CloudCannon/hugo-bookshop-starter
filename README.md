@@ -7,7 +7,7 @@ To run locally:
 hugo server -D
 ```
 
-To see the component browser locally:
+To see the component browser locally: (in another terminal)
 ```bash
 npm i
 npx @bookshop/browser
@@ -21,4 +21,4 @@ The bookshop components live in `component-library`, which is loaded as a Hugo m
 
 The site also pulls in the main dependency of `github.com/cloudcannon/bookshop/hugo/v2`.
 
-For further help with Bookshop, see the [Bookshop Guides](https://github.com/CloudCannon/bookshop).
+To learn more, read the [Bookshop Hugo Guide](https://github.com/CloudCannon/bookshop/blob/main/guides/hugo.adoc).
