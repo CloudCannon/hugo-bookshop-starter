@@ -1,9 +1,0 @@
-[component]
-structures = []
-label = "Tag"
-description = "A generic tag component"
-icon = "smart_button"
-tags = []
-
-[props]
-text = "Hello World"
