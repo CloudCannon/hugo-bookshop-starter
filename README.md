@@ -1,4 +1,4 @@
-# Hugo Bookshop Starter
+# Hugo Bookshop Starter 
 
 A starter template for a new Hugo site using [Bookshop](https://github.com/CloudCannon/bookshop)
 
