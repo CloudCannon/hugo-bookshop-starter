@@ -10,16 +10,16 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  content: ""
+  content_html: ""
   type: standard
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  content: <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+  content_html: <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
-  content:
+  content_html:
     type: html
     options:
       blockquote: true
