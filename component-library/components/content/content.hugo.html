@@ -2,5 +2,5 @@
     {{ if eq .type "note" }}
         {{ partial "bookshop" (slice "tag" (dict "text" "Note")) }}
     {{ end }}
-    {{ .content_html | safeHTML }}
+    {{ .content | safeHTML }}
 </div>
