@@ -8,10 +8,13 @@
 {{ $col_span_class := ""}}
 
 {{ if eq $num_cols 2 }}
+<p>two!</p>
 {{$num_cols_class = "lg:grid-cols-2"}}
 {{ else if eq $num_cols 3 }}
+<p>three!</p>
 {{$num_cols_class = "lg:grid-cols-3"}}
 {{ else if eq $num_cols 4 }}
+<p>four!</p>
 {{$num_cols_class = "lg:grid-cols-4"}}
 {{ end }}
 
