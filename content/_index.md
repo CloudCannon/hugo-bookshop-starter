@@ -14,5 +14,12 @@ content_blocks:
       <p>For more infos, check out the <a target="_blank"
       href="https://github.com/CloudCannon/hugo-bookshop-starter#readme">readme</a></p>
     type: standard
+  - _bookshop_name: columns
+    num_cols: 3
+    columns:
+      - name:
+        col_span:
+        backgroundImage:
+        column_components: []
 note_html: <p>You can also use the bookshop tag directly.</p>
 ---
