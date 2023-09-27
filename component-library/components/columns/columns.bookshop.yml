@@ -1,0 +1,59 @@
+spec:
+  structures:
+    - content_blocks
+  label: Multiple Columns
+  description: >-
+    Layout component to allow Multiple columns in the same section. Columns
+    contain other components.
+  icon: view_column
+  tags:
+    - layout
+blueprint:
+  num_cols:
+  columns:
+    - name:
+      col_span:
+      backgroundImage:
+      column_components:
+        - bookshop:structure:content_blocks
+preview:
+_inputs:
+  num_cols:
+    label: Number of Columns
+    empty_type:
+    type: range
+    options:
+      step: 1
+      max: 4
+      min: 1
+    comment: >-
+      The total number of columns for this component. If empty, will default to
+      the number of column entries defined below.
+  columns:
+    type: array
+    icon: splitscreen_left
+  name:
+    label: Column Name
+    type: text
+    comment: For easy reference of what is in each column.
+  sectionclass:
+    label: Section Classes
+    type: text
+    comment: >-
+      Space separated Tailwind CSS classes that are added to the 'section'
+      element.
+  col_span:
+    label: Columns Spanned
+    type: number
+    comment: >-
+      By default each column entry spans a single column. You can change that
+      here.
+  backgroundImage:
+    type: image
+    comment: Background image for the column.
+  column_components:
+    label: Column Components
+    type: array
+    comment: Stack of components in the column.
+    icon: splitscreen_top
+
