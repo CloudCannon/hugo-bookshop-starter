@@ -1,6 +1,6 @@
 {{ $num_cols := 1 }}
 {{ if gt .num_cols 0 }}
-{{$num_cols = .num_cols}}
+{{$num_cols = (int .num_cols) }}
 {{ else }}
 {{ $num_cols = (len .columns) }}
 {{ end }}
