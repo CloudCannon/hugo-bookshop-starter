@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 npm i
-npx "@bookshop/generate"
+npx "@bookshop/generate@latest"
