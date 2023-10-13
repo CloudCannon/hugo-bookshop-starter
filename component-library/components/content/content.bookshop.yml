@@ -19,6 +19,23 @@ preview:
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs:
+  content_html:
+    type: html
+    options:
+      blockquote: true
+      bold: true
+      format: p h1 h2 h3 h4 h5 h6 
+      italic: true
+      strike: true
+      underline: true 
+      bulletedlist: true
+      numberedlist: true
+      table: true 
+      undo: true
+      redo: true
+      link: true
+
+    
   type:
     type: select
     options:

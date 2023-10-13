@@ -13,8 +13,8 @@
   },
   "homepage": "https://github.com/CloudCannon/hugo-bookshop-starter#readme",
   "devDependencies": {
-    "@bookshop/browser": "3.2.1",
-    "@bookshop/generate": "3.2.1",
-    "@bookshop/hugo-engine": "3.2.1"
+    "@bookshop/browser": "3.3.0",
+    "@bookshop/generate": "3.3.0",
+    "@bookshop/hugo-engine": "3.3.0"
   }
 }

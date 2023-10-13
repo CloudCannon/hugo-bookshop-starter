@@ -1,0 +1,8 @@
+collections_config:
+  pages:
+    schemas: 
+      default:
+        path: schemas/pages.md  
+    _enabled_editors:
+      - visual
+      - content
